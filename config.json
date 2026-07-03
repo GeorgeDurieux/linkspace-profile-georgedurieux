@@ -1,7 +1,19 @@
 {
   "adminEmail": "GeorgeDurieux@github.com",
   "name": "GEORGE DURIEUX",
+  "bio": {
+    "el": "Μηχανικός Λογισμικού | Λάτρης της Τεχνολογίας",
+    "en": "Software Engineer | Tech Enthusiast"
+  },
   "siteUrl": "https://geroutskis.com",
+  "layout": [
+    "profile",
+    "links",
+    "actions",
+    "techstack",
+    "github",
+    "portfolio"
+  ],
   "isAvailable": false,
   "showStatusBadge": false,
   "customStatusText": {
