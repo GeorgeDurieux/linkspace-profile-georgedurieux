@@ -1,11 +1,14 @@
 {
   "adminEmail": "GeorgeDurieux@github.com",
-  "name": "GEORGE DURIEUX",
-  "bio": {
-    "el": "Μηχανικός Λογισμικού | Λάτρης της Τεχνολογίας",
-    "en": "Software Engineer | Tech Enthusiast"
+  "name": {
+    "el": "Γιώργος Ντουριέ",
+    "en": "George Durieux"
   },
-  "siteUrl": "https://geroutskis.com",
+  "bio": {
+    "el": "Προγραμματιστής React",
+    "en": "React Developer"
+  },
+  "siteUrl": "",
   "layout": [
     "profile",
     "links",
@@ -14,75 +17,71 @@
     "github",
     "portfolio"
   ],
-  "isAvailable": false,
-  "showStatusBadge": false,
+  "isAvailable": true,
+  "showGreeting": false,
+  "showStatusBadge": true,
   "customStatusText": {
     "el": "",
     "en": ""
   },
   "profileImage": "https://avatars.githubusercontent.com/u/168580892?v=4",
-  "favicon": "🚀",
+  "favicon": "👤",
   "defaultLang": "el",
-  "defaultTheme": "neon",
+  "defaultTheme": "midnight",
   "seo": {
     "title": {
-      "el": "LinkSpace | Valentinos Geroutskis",
-      "en": "LinkSpace | Valentinos Geroutskis"
+      "el": "",
+      "en": ""
     },
     "description": {
-      "el": "Ο κόσμος μου σε ένα link. Δες τα projects μου, συνδέσου μαζί μου στα social media και ανακάλυψε τι φτιάχνω.",
-      "en": "My world in one link. Explore my projects, connect with me on social media and discover what I'm building."
+      "el": "",
+      "en": ""
     },
-    "keywords": "LinkSpace, Valentinos Geroutskis, Software Engineer, Web Developer, Links, Portfolio"
+    "keywords": ""
   },
   "location": {
-    "el": "Αθήνα, Ελλάδα",
-    "en": "Athens, Greece"
+    "el": "Αθήνα",
+    "en": "Athens"
+  },
+  "skillsTitle": {
+    "el": "Skills",
+    "en": "Skills"
+  },
+  "portfolioTitle": {
+    "el": "Projects",
+    "en": "Projects"
   },
   "timezone": "Europe/Athens",
+  "availableFromDate": "07/07/2026",
+  "statusIncludeDates": "",
+  "statusExcludeDates": "",
   "githubUsername": "GeorgeDurieux",
-  "githubRepoUrl": "https://github.com/vgeroutskis/linkspace",
+  "githubRepoUrl": "",
   "githubStatsFallback": {
-    "followers": 12,
-    "reposCount": 8
+    "followers": 0,
+    "reposCount": 0
   },
   "contactEmail": "GeorgeDurieux@github.com",
-  "calendlyUrl": "https://calendly.com/vgeroutskis/30min",
+  "calendlyUrl": "https://calendly.com/giorgosdurieux/30min",
+  "googleAnalyticsId": "",
+  "googleClientId": "",
+  "resendApiKey": "",
   "links": [
     {
-      "url": "https://www.instagram.com/valentinosgr",
-      "icon": "fab fa-instagram",
-      "cssClass": "instagram",
-      "langKey": "instagram",
-      "tooltipKey": "tooltip-instagram",
+      "url": "https://www.giorgosdurieux.com/",
+      "icon": "fa-solid fa-link",
+      "cssClass": "custom-link",
+      "langKey": "website",
+      "tooltipKey": "tooltip-website",
       "external": true
     },
     {
-      "url": "https://www.linkedin.com/in/valentinos-geroutskis/",
+      "url": "https://www.linkedin.com/in/george-durieux/",
       "icon": "fab fa-linkedin",
       "cssClass": "linkedin",
       "langKey": "linkedin",
       "tooltipKey": "tooltip-linkedin",
       "external": true
-    },
-    {
-      "url": "https://github.com/vgeroutskis",
-      "icon": "fab fa-github",
-      "cssClass": "github",
-      "langKey": "github",
-      "tooltipKey": "tooltip-github",
-      "external": true
-    },
-    {
-      "url": "#",
-      "icon": "fa-solid fa-address-card",
-      "cssClass": "vcard",
-      "langKey": "save-contact",
-      "tooltipKey": "tooltip-vcard",
-      "external": false,
-      "action": "vcard"
     }
-  ],
-  "GOOGLE_CLIENT_ID": "961938932307-s2ofhoqrm0qcjbrds8klgjjshpku3oii.apps.googleusercontent.com",
-  "GOOGLE_ANALYTICS_ID": "G-3975PTPNYY"
+  ]
 }
